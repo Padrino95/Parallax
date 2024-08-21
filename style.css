@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	color:rgb(100,100,100);
+	font-family: 'Poiret One', cursive, helvetica;
+	font-size:100%;
+	line-height: 1.3
+}
+h2{
+    color: white;
+    font-size: 2rem;
+}
+.img-uno{background-image: url('https://images.unsplash.com/photo-1518565756759-98c6cbc5fa33?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')}
+
+.img-dos{background-image:url("https://images.unsplash.com/photo-1520996729250-7d888a835cc4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")}
+
+.img-tres{background-image:url("https://images.unsplash.com/photo-1617609026795-91a36f12cb53?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")}
+
+.parallax{
+    height: 100vh;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    margin: 50px 0;
+}
